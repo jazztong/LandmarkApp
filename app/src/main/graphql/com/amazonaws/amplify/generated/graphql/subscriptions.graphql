@@ -1,0 +1,64 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateUserLandmark(
+  $id: ID
+  $user: AWSEmail
+  $lat: Float
+  $lng: Float
+  $note: String
+) {
+  onCreateUserLandmark(
+    id: $id
+    user: $user
+    lat: $lat
+    lng: $lng
+    note: $note
+  ) {
+    id
+    user
+    lat
+    lng
+    note
+  }
+}
+subscription OnUpdateUserLandmark(
+  $id: ID
+  $user: AWSEmail
+  $lat: Float
+  $lng: Float
+  $note: String
+) {
+  onUpdateUserLandmark(
+    id: $id
+    user: $user
+    lat: $lat
+    lng: $lng
+    note: $note
+  ) {
+    id
+    user
+    lat
+    lng
+    note
+  }
+}
+subscription OnDeleteUserLandmark(
+  $id: ID
+  $user: AWSEmail
+  $lat: Float
+  $lng: Float
+  $note: String
+) {
+  onDeleteUserLandmark(
+    id: $id
+    user: $user
+    lat: $lat
+    lng: $lng
+    note: $note
+  ) {
+    id
+    user
+    lat
+    lng
+    note
+  }
+}

@@ -1,0 +1,28 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateUserLandmark($input: CreateUserLandmarkInput!) {
+  createUserLandmark(input: $input) {
+    id
+    user
+    lat
+    lng
+    note
+  }
+}
+mutation UpdateUserLandmark($input: UpdateUserLandmarkInput!) {
+  updateUserLandmark(input: $input) {
+    id
+    user
+    lat
+    lng
+    note
+  }
+}
+mutation DeleteUserLandmark($input: DeleteUserLandmarkInput!) {
+  deleteUserLandmark(input: $input) {
+    id
+    user
+    lat
+    lng
+    note
+  }
+}

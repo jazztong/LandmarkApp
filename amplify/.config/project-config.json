@@ -1,0 +1,16 @@
+{
+    "projectName": "LandmarkApp",
+    "projectPath": "/Users/tigerspike/Development/POC/LandmarkApp",
+    "defaultEditor": "none",
+    "frontendHandler": {
+        "android": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-android"
+    },
+    "amplify-frontend-android": {
+        "config": {
+            "ResDir": "app/src/main/res"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}
